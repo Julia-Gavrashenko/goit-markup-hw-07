@@ -156,7 +156,7 @@ img {
   margin-left: auto;
 }
 
-.header__contacts {
+.header-contacts {
   gap: 30px;
   display: flex;
   align-items: center;
@@ -168,22 +168,21 @@ img {
   color: var(--title-text-color);
 }
 
+.header-contacts__item {
+  color: var(--main-text-color);
+}
 
-
-
-.header__group .link {
+.header-contacts__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-}
-
-
-.header__contacts .link {
   transition: color var(--anim-hover);
 }
 
-.header__contacts .header-icon {
+.header-contacts-icon {
+  margin-right: 10px;
+  fill: var(--icon-grey-color);
   transition: fill var(--anim-hover);
 }
 
@@ -192,22 +191,12 @@ img {
   color: var(--accent-text-color);
 }
 
-
-
-
-.header__contacts .list-item {
-  color: var(--main-text-color);
-}
-
-.header-icon {
-  margin-right: 10px;
-  fill: var(--icon-grey-color);
-}
-
-.link:hover .header-icon,
-.link:focus .header-icon {
+.link:hover .header-contacts-icon,
+.link:focus .header-contacts-icon {
   fill: var(--accent-background-color);
 }
+
+
 
 /* Studio page styles */
 /*  hero section styles */
