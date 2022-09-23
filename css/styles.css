@@ -472,10 +472,6 @@ img {
 
 
 
-
-
-
-
 /* section feature styles */
 
 .section {
@@ -488,6 +484,16 @@ img {
   align-items: center;
   justify-content: center;
   gap: 30px;
+}
+
+.feature__icon {
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .feature__title {
@@ -506,16 +512,6 @@ img {
 }
 
 
-
-.feature__icons {
-  height: 120px;
-  margin-bottom: 30px;
-  background-color: var(--secondary-background-color);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 /* .feature__list > .feature-item:not(:last-child) {
   margin-right: 30px;
