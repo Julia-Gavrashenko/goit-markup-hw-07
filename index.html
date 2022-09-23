@@ -26,26 +26,31 @@
 
   <!-- page -->
   <body class="page">
-    <!-- header -->
-    <header class="header portfolio-header">
-      <nav class="container main-nav">
-        <a class="header-logo" href="" lang="en">
-          <span class="header-web">Web</span>Studio
-        </a>
-        <ul class="site-nav list">
-          <li class="list-item">
-            <a class="link current" href="./index.html">Студія</a>
-          </li>
-          <li class="list-item">
-            <a class="link" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="list-item">
-            <a class="link" href="">Контакти</a>
-          </li>
-        </ul>
 
-        <div class="header-contacts">
-          <ul class="site-info list">
+    <!-- header -->
+    <header class="header">
+      <div class="container header__container">
+        <a class="logo header__logo" href="" lang="en">
+          <span class="header__web">Web</span>Studio
+        </a>
+
+<!-- main-navigation -->
+        <nav class="nav">
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link nav__link--current" href="./index.html">Студія</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__group">
+          <ul class="header__contacts list">
             <li class="list-item">
               <a class="link" href="mailto:info@devstudio.com">
                 <svg class="header-icon" width="16" height="12">
@@ -65,7 +70,7 @@
             </li>
           </ul>
         </div>
-      </nav>
+      </div>
     </header>
 
     <!-- studio page sections-->
@@ -646,8 +651,8 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-addres-section">
-          <a class="footer-logo" href="" lang="en">
-            <span class="footer-web">Web</span>Studio
+          <a class="logo footer__logo" href="" lang="en">
+            <span class="footer__web">Web</span>Studio
           </a>
           <address class="addres">
             <p class="addres-text">м. Київ, пр-т Лесі Українки, 26</p>
@@ -737,10 +742,9 @@
                 type="email"
                 name="email"
                 id="footer-email"
-                 placeholder="E-mail" 
+                placeholder="E-mail"
               />
-               <label class="footer-form-email" for="footer-email"></label> 
-
+              <label class="footer-form-email" for="footer-email"></label>
             </div>
 
             <button class="footer-form-btn" type="submit">
