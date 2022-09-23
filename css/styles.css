@@ -469,6 +469,13 @@ img {
   display: block;
 }
 
+
+
+
+
+
+
+
 /* section feature styles */
 
 .section {
@@ -476,7 +483,14 @@ img {
   padding-bottom: 94px;
 }
 
-.feature-title {
+.feature__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.feature__title {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -485,17 +499,15 @@ img {
   color: var(--title-text-color);
 }
 
-.feature-subtitle {
+.feature__subtitle {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
 }
 
-.feature-list {
-  display: flex;
-}
 
-.feature-icons {
+
+.feature__icons {
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--secondary-background-color);
@@ -505,9 +517,12 @@ img {
   justify-content: center;
 }
 
-.feature-list > .feature-item:not(:last-child) {
+/* .feature__list > .feature-item:not(:last-child) {
   margin-right: 30px;
-}
+} */
+
+
+
 /* doings section styles */
 
 .doings {
