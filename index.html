@@ -28,8 +28,8 @@
   <body class="page">
     <!-- header -->
     <header class="header">
-      <div class="container header__container">
-        <a class="logo header__logo" href="" lang="en">
+      <div class="header__container container">
+        <a class="header__logo logo" href="" lang="en">
           <span class="header__web">Web</span>Studio
         </a>
 
@@ -57,7 +57,7 @@
                 class="header-contacts__link link"
                 href="mailto:info@devstudio.com"
               >
-                <svg class="header-contacts-icon" width="16" height="12">
+                <svg class="header-contacts__icon" width="16" height="12">
                   <use href="./image/icons.svg#envelope"></use>
                 </svg>
                 info@devstudio.com
@@ -66,7 +66,7 @@
 
             <li class="header-contacts__item">
               <a class="header-contacts__link link" href="tel:+380961111111">
-                <svg class="header-contacts-icon" width="10" height="16">
+                <svg class="header-contacts__icon" width="10" height="16">
                   <use href="./image/icons.svg#smartphone"></use>
                 </svg>
                 +38 096 111 11 11
@@ -81,9 +81,9 @@
     <main>
       <!-- hero-section -->
       <section class="hero">
-        <div class="container hero__container">
+        <div class="hero__container container ">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="btn hero__btn" type="button" data-modal-open>
+          <button class="hero__btn btn " type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -91,60 +91,60 @@
         <!-- modal window -->
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button class="modal-button" type="button" data-modal-close>
-              <svg class="modal-btn-icon" width="18" height="18">
+            <button class="modal__btn" type="button" data-modal-close>
+              <svg class="modal-btn__icon" width="18" height="18">
                 <use href="./image/icons.svg#modal-btn"></use>
               </svg>
             </button>
 
-            <form class="modal-form" name="modal-form">
-              <strong class="modal-name"
+            <form class="register-form" name="modal-form">
+              <strong class="register-form__name"
                 >Залиште свої дані, ми вам передзвонимо</strong
               >
 
-              <div class="form-field">
-                <label class="form-label" for="user-name">Ім'я</label>
+              <div class="register-form__field">
+                <label class="register-form__label" for="user-name">Ім'я</label>
                 <input
-                  class="form-input"
+                  class="register-form__input"
                   type="text"
                   name="name"
                   id="user-name"
                 />
-                <svg class="user-icon" width="18" height="18">
+                <svg class="register-form__icon" width="18" height="18">
                   <use href="./image/icons.svg#user-name-icon"></use>
                 </svg>
               </div>
 
-              <div class="form-field">
-                <label class="form-label" for="user-phone">Телефон</label>
+              <div class="register-form__field">
+                <label class="register-form__label" for="user-phone">Телефон</label>
                 <input
-                  class="form-input"
+                  class="register-form__input"
                   type="tel"
                   name="tel"
                   id="user-phone"
                 />
-                <svg class="user-icon" width="18" height="18">
+                <svg class="register-form__icon" width="18" height="18">
                   <use href="./image/icons.svg#user-phone-icon"></use>
                 </svg>
               </div>
 
-              <div class="form-field">
-                <label class="form-label" for="user-email">Пошта</label>
+              <div class="register-form__field">
+                <label class="register-form__label" for="user-email">Пошта</label>
                 <input
-                  class="form-input"
+                  class="register-form__input"
                   type="email"
                   name="email"
                   id="user-email"
                 />
-                <svg class="user-icon" width="18" height="18">
+                <svg class="register-form__icon" width="18" height="18">
                   <use href="./image/icons.svg#user-email-icon"></use>
                 </svg>
               </div>
 
-              <div class="form-message">
-                <label class="form-label" for="comment">Коментар</label>
+              <div class="register-form__message">
+                <label class="register-form__label" for="comment">Коментар</label>
                 <textarea
-                  class="form-input"
+                  class="register-form__input"
                   name="comment"
                   id="comment"
                   cols="30"
@@ -155,26 +155,26 @@
 
               <div class="form-agreement">
                 <input
-                  class="form-agreement-checkbox visually-hidden"
+                  class="form-agreement__checkbox visually-hidden"
                   type="checkbox"
                   name="policy"
                   id="policy"
                 />
 
-                <div class="agreement-icons">
-                  <span class="agreement-unchecked"></span>
-                  <svg class="agreement-checked" width="16" height="15">
+                <div class="form-agreement__icons">
+                  <span class="form-agreement__unchecked"></span>
+                  <svg class="form-agreement__checked" width="16" height="15">
                     <use href="./image/icons.svg#icon-checked3"></use>
                   </svg>
                 </div>
 
-                <label class="form-agreement-label" for="policy"
+                <label class="form-agreement__label" for="policy"
                   >Погоджуюся з розсилкою та приймаю
-                  <a class="form-agreement-link" href=""> Умови договору </a>
+                  <a class="form-agreement__link" href=""> Умови договору </a>
                 </label>
               </div>
 
-              <button class="modal-form-btn" type="submit">Відправити</button>
+              <button class="btn register-form__btn" type="submit">Відправити</button>
             </form>
           </div>
         </div>
@@ -752,7 +752,7 @@
               <label class="footer-form-email" for="footer-email"></label>
             </div>
 
-            <button class="footer-form-btn" type="submit">
+            <button class="btn footer-form__btn" type="submit">
               Підписатися
               <svg class="icon-send" width="24" height="24">
                 <use href="./image/icons.svg#icon-send"></use>
