@@ -447,7 +447,6 @@ img {
   height: 15px;
   border: 2px solid #212121;
   background-color: #ffffff;
-  /* box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2); */
   border-radius: 2px;
   transition: opacity var(--anim-hover);
 }
@@ -572,12 +571,12 @@ img {
   color: var(--title-text-color);
 }
 
-.team__list {
+.team-card {
   display: flex;
   gap: 30px;
 }
 
-.team-card{
+.team-card__item{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -692,17 +691,15 @@ img {
 .button-container {
   padding-bottom: 50px;
 }
-.button-list {
+.filters-list{
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  gap:8px
 }
 
-.button-list .portfolio-button:not(:last-child) {
-  margin-right: 8px;
-}
 
-.button-list .button {
+.filters-list__button{
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 22px;
@@ -722,8 +719,8 @@ img {
     box-shadow var(--anim-hover);
 }
 
-.list .button:hover,
-.list .button:focus {
+.filters-list__button:hover,
+.filters-list__button:focus {
   background-color: var(--accent-background-color);
   color: var(--light-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -731,7 +728,7 @@ img {
 
 /* project-cards style */
 
-.projects-list {
+.projects {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
@@ -797,7 +794,7 @@ img {
   transition: transform var(--anim-hover);
 }
 
-.projects-item:hover .card-overlay {
+.projects__item:hover .card-overlay {
   transform: translateY(0);
 }
 
@@ -832,11 +829,6 @@ img {
   color: var(--accent-text-color);
 }
 
-
-
-
-
-
 .addres {
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -848,18 +840,18 @@ img {
   padding-bottom: 9px;
 }
 
-.footer__link {
+.addres__link {
   display: block;
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--anim-hover);
 }
 
-.footer__contacts {
+.addres__contacts {
   margin-bottom: 9px;
 }
 
-.footer__link:hover,
-.footer__link:focus {
+.addres__link:hover,
+.addres__link:focus {
   color: var(--accent-text-color);
 }
 
