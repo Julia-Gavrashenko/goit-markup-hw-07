@@ -479,7 +479,6 @@ img {
 /* section feature styles */
 .feature__list {
   display: flex;
-  align-items: center;
   justify-content: center;
   gap: 30px;
 } 
