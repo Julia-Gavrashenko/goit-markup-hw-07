@@ -123,7 +123,7 @@ img {
 
 /* header styles */
 
-.header {
+/* .header {
   background-color: var(--light-fill-color);
   border-bottom: 1px solid #ececec;
 }
@@ -140,10 +140,10 @@ img {
 
 .header__web {
   color: var(--accent-text-color);
-}
+} */
 
 /* navigation */
-
+/* 
 .nav {
   display: flex;
   align-items: center;
@@ -188,10 +188,10 @@ img {
 .nav__link:hover,
 .nav__link:hover{
   color: var(--accent-text-color);
-}
+} */
 
 /* header-contacts */
-.header-contacts {
+/* .header-contacts {
   margin-left: auto;
 }
 
@@ -233,11 +233,11 @@ img {
 .header-contacts__link:hover .header-contacts__icon,
 .header-contacts__link:focus .header-contacts__icon {
   fill: var(--accent-background-color);
-}
+} */
 
 /* Studio page styles */
 /*  hero section styles */
-.hero {
+/* .hero {
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
@@ -271,13 +271,13 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 
 
 /* modal window */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -327,10 +327,10 @@ img {
 .modal__btn:hover,
 .modal__btn:focus {
   fill: var(--accent-background-color);
-}
+} */
 
 /* modal-window-form */
-.register-form {
+/* .register-form {
   padding-left: 41px;
   padding-right: 39px;
   padding-top: 40px;
@@ -479,7 +479,7 @@ img {
 
 .register-form__btn {
   display: block;
-}
+} */
 
 
 
