@@ -2,6 +2,7 @@
 // utils 
 @import './utils/variables';
 @import './utils/reset';
+@import './utils/plaseholders';
 @import './utils/visually-hidden';
 
 // components 
@@ -23,6 +24,7 @@
 @import './components/clients-section';
 
 // portfolio-page-styles
+@import './components/portfolio';
 @import './components/filters';
 @import './components/projects-card';
 

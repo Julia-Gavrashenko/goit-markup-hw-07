@@ -1,4 +1,6 @@
 .doings {
+    @extend %section;
+    @extend %container;
     padding-top: 0;
 }
 

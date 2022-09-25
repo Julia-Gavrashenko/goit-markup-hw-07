@@ -48,6 +48,19 @@ img {
   padding: 0;
 }
 
+.portfolio, .clients, .team, .doings, .feature {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.footer__container, .portfolio-container, .clients, .team, .doings, .feature, .hero__container, .header {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -69,14 +82,6 @@ img {
   color: var(--main-text-color);
 }
 
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .logo {
   display: block;
   font-family: var(--secondary-font);
@@ -85,11 +90,6 @@ img {
   line-height: 1.1923076923;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .btn {
