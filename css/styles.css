@@ -1,16 +1,17 @@
+ 
  /* :root {
-  /* fonts */
+  
   --main-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
 
-  /* text colors*/
+  
   --main-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --light-text-color: #ffffff;
   --black-text-color: #000000;
 
-  /* background colors */
+
   --background-color: #f5f5f5;
   --secondary-background-color: #f5f4fa;
   --accent-background-color: #2196f3;
@@ -22,14 +23,14 @@
   --icon-grey-color: #757575;
   --icon-white-color: #ffffff;
 
-  /* animation */
+  
   --anim-hover: 250ms cubic-bezier(0.4, 0, 0.2, 1);
- } */
+ }  */
 
 
-/* 
+
 /* reset */
-h1,
+/* h1,
 h2,
 h3,
 p {
@@ -50,10 +51,10 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
-}  */
+}   */
 
-base styles
-.page {
+/* base styles */
+/* .page {
   font-family: var(--main-font);
   background-color: var(--main-background-color);
   color: var(--main-text-color);
@@ -113,7 +114,7 @@ base styles
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 
 
@@ -190,11 +191,11 @@ base styles
 }
 
 /* header-contacts */
-.header__group {
+.header-contacts {
   margin-left: auto;
 }
 
-.header-contacts {
+.header-contacts__list {
   gap: 30px;
   display: flex;
   align-items: center;
